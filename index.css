@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aqui você pode adicionar customizações de tema se desejar */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+
+/* Force ReactFlow Controls Visibility */
+.react-flow__controls button {
+  background-color: #1f2937 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+.react-flow__controls button:hover {
+  background-color: #374151 !important;
+}
+.react-flow__controls button svg {
+  fill: #f3f4f6 !important;
+}
